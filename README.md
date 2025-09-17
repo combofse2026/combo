@@ -17,6 +17,7 @@ This artifact is distributed as a Docker image. Please follow the steps below to
 
    Execute the following command to load the Docker image:
    ```bash
+   # sha256sum of combo.tar: [d2ebaaf580b14497dfbd1e304ea2624c549d6b6492c0561fa44cbce62c9aa2db]
    cat combo.tar.part-* > combo.tar
    docker load -i combo.tar
    ```
